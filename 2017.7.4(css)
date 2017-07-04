@@ -1,0 +1,16 @@
+/* First CSS */
+* {
+  font-family:Georgia;
+}
+
+h1 {
+  color:FireBrick;
+}
+
+p {
+  font-size:18px;
+}
+
+h1, p {
+  color:DarkSlateGray;
+}
