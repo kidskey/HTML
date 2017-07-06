@@ -1,0 +1,63 @@
+# HTML_CSS
+HTML+CSS
+
+/* 设置字体类型 */
+h1 {
+  font-family: Garamond;
+}
+
+Serif       衬线字体
+Sans-Serif  无衬线字体
+
+e.g.
+/* 链接到Google Fonts */
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" type="text/css" rel="stylesheet" >
+</head>
+
+/* 字体大小 */
+p {
+  font-size: 18px;
+}
+一般浏览器字体大小默认为 16px=1em=100%
+
+/* 行高 */
+p {
+  line-height: 1.5em;
+}
+
+
+font-size + leading = line-height
+
+/* 字间隔 */
+h1 {
+  word-spacing: 0.3em;
+}
+
+/* 字符间隔 */
+h1 {
+  letter-spacing: 0.3em;
+}
+
+/* 字体粗细 */
+p {
+  font-weight: bold;
+}
+
+Font weights can be set to 100 (thin), 200, 300, 400 (normal weight), 500, 600, 700, 800, or 900 (bold).
+
+/* 斜体 */
+h3 {
+  font-style: italic;
+}
+
+/* 字母大写 */
+h1 {
+  text-transform: uppercase;
+}
+
+/* 对齐方式 */
+h1 {
+  text-align: right;
+}
+
