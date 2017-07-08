@@ -5,7 +5,10 @@ you can use the width and height properties
 
 1.Pixels - You learned about pixels when you learned about fonts. This unit lets you set the exact size of an element's box.
 2.Ems - This unit sets the dimensions of the box relative to the size of the text within the box.
-3.Percentages - This unit sets the dimensions of the box relative to the size of the box that it is encased in. For example, consider an element (a box) of class blue set to a height of 200 pixels and a width of 200 pixels. Inside of blue, consider another box of class red, set to a height of 37% and a width of 45%. The resulting dimensions of the red box would be a height of 74 pixels and a width of 90 pixels.
+3.Percentages - This unit sets the dimensions of the box relative to the size of the box that it is encased in. 
+For example, consider an element (a box) of class blue set to a height of 200 pixels and a width of 200 pixels. 
+Inside of blue, consider another box of class red, set to a height of 37% and a width of 45%. 
+The resulting dimensions of the red box would be a height of 74 pixels and a width of 90 pixels.
 
 min-width
 max-width
