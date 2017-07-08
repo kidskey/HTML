@@ -30,7 +30,10 @@ hsla {
   color: hsla(182, 20%, 50%);
 }
 
-<p>In CSS, the latter of multiple declarations takes priority. In the example above, if the user's browser supports rgba(), then that color will be applied to the heading. If it does not, then CSS will use the first rgb() color declaration, as a backup.</p>
+<p>In CSS, the latter of multiple declarations takes priority. 
+In the example above, if the user's browser supports rgba(), then that color will be applied to the heading. 
+If it does not, then CSS will use the first rgb() color declaration, as a backup.</p>
+
 h1 {
   color: rgb(22, 34, 88);
   color: rgba(22, 34, 88, 0.4);
