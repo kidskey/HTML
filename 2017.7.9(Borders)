@@ -1,0 +1,63 @@
+# HTML_CSS
+HTML+CSS
+
+/*   border-style */
+div {
+  border-style: solid;
+}
+
+solid - border is a solid line.
+dashed - border is a series of lines or dashes.
+dotted - border is a series of square dots.
+double - border is two solid black lines.
+groove - border is a groove (or carving).
+inset - border appears to cut into the screen.
+outset - border appears to pop out of the screen.
+ridge - border appears as a picture frame.
+hidden or none - no border.
+
+/* border-width */
+p {
+  border-style: solid;
+  border-width: 5px;
+}
+
+/* four sides */
+p {
+  border-style: solid;
+  border-width: 3px 1px 2px 1px;
+}
+
+The values in the example above refer to the border width in clockwise order
+(top: 3 pixels, right: 1 pixel, bottom: 2 pixels, left: 1 pixel).
+
+border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+
+/* border-color */
+div.container {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(22, 77, 100);
+}
+
+/* shortened */
+div.container {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(22, 77, 100);
+}
+
+div.container {
+  border: 3px solid rgb(22, 77, 100);
+}
+
+/* border-radius */
+div.container {
+  height: 60px;
+  width: 60px;
+  border: 3px solid rgb(22, 77, 100);
+  border-radius: 100%;
+}
