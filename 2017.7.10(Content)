@@ -1,0 +1,79 @@
+# HTML_CSS
+HTML+CSS
+
+e.g.
+/* padding内边距 */
+p {
+  border: 3px solid #A2D3F4;
+  padding: 10px;
+}
+
+p {
+  border: 3px solid #XXXXXX;
+  padding: 5px 10px 5px 10px;
+}
+
+refer to the amount of padding in a clockwise rotation
+it specifies the amount of padding on the top (5 pixels), right (10 pixels), 
+bottom (5 pixels), and left (10 pixels)sides of the content
+
+shortcut:
+
+p {
+  padding: 5px 10px;
+}
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+/* margin外边距 */
+
+p {
+  border: 1px solid #23AD44;
+  margin: 20px;
+}
+
+p {
+  margin: 6px 12px 6px 12px;
+}
+
+p {
+  margin: 6px 12px;
+}
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+/* 元素居中 */
+div.headline {
+  margin: auto;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+Many developers choose to reset these default values so that they can truly work with a clean slate.
+
+
+Inline elements 
+Block-level elements
+
+inline 
+block 
+inline-block
+none 
+
+/* visibility */
+
+.future {
+  visibility: hidden;
+}
+
+hidden - hides an element.
+visible - displays an element.
