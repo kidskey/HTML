@@ -1,0 +1,29 @@
+# HTML_CSS
+HTML+CSS
+
+
+In this box model, the height and width of the box will remain fixed. 
+The border thickness and padding will be included inside of the box, which means the overall dimensions of the box do not change.
+
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+In the example above, the height of the box would remain at 200 pixels and the width would remain at 300 pixels. 
+The border thickness and padding would remain entirely inside of the box.
+
+
+
+In the default box model, box dimensions are affected by border thickness and padding.
+The box-sizing property controls the box model used by the browser.
+The default value of the box-sizing property is content-box.
+The value for the new box model is border-box.
+The border-box model is not affected by border thickness or padding.
