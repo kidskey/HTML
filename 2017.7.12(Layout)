@@ -1,0 +1,45 @@
+# HTML_CSS
+HTML+CSS
+
+/* position */
+static - the default value (it does not need to be specified)
+relative
+absolute
+fixed
+
+/* z-index */
+.box-top {
+  background-color: Aquamarine;
+  position: relative;
+  z-index: 2;
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* float */
+
+.boxes {
+    width: 120px;
+    height: 70px;
+}
+
+.box-bottom {
+  background-color: DeepSkyBlue;
+  float: right;
+}
+
+/* clear */
+
+The clear property specifies how elements should behave when they bump into each other on the page. 
+It can take on one of the following values:
+
+left — the left side of the element will not touch any other element within the same containing element.
+right — the right side of the element will not touch any other element within the same containing element.
+both — neither side of the element will touch any other element within the same containing element.
+none — the element can touch either side.
